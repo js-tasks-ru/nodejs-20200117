@@ -1,0 +1,7 @@
+{"message":"App is running on http://localhost:3000","level":"info"}
+{"message":"App is running on http://localhost:3000","level":"info"}
+{"message":{"method":"GET","url":"/login"},"level":"info"}
+{"message":{"method":"GET","url":"/login"},"level":"info"}
+{"message":{"method":"GET","url":"/login"},"level":"info"}
+{"message":"App is running on http://localhost:3000","level":"info"}
+{"message":"App is running on http://localhost:3000","level":"info"}
