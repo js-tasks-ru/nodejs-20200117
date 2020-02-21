@@ -2,7 +2,7 @@ module.exports = {
   mongodb: {
     uri: (process.env.NODE_ENV === 'test')
       ? 'mongodb://localhost/test-auth'
-      : 'mongodb://localhost/auth',
+      : process.env.MONGODB_URI || 'mongodb://localhost/auth',
   },
   crypto: {
     iterations: (process.env.NODE_ENV === 'test' ? 1 : 12000),
